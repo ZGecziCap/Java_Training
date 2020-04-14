@@ -18,4 +18,8 @@ public class EmployeeDao {
         return new ArrayList<>(employees);
         //return Collections.unmodifiableList(employees);
     }
+
+    public void emptyEmployees() {
+        employees.clear();
+    }
 }
