@@ -1,5 +1,8 @@
 package DependencyTut;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class EmployeeService {
 
     private final EmployeeDao employeeDao;

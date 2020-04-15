@@ -1,10 +1,13 @@
 package DependencyTut;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
+@Repository
 public class EmployeeDao {
 
     private List<String> employees = Collections.synchronizedList(new ArrayList<>());
